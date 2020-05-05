@@ -11,26 +11,28 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
-      <a href="spanish.html" class="btn-translate">
-        <img src="es.svg" class="flag" /> &nbsp; Spanish
-        <!-- <img src="ar.svg" class="flag" /> -->
-      </a>
+      <a href="index.html" class="btn-translate"
+        ><img src="us.svg" class="flag" /> &nbsp; English</a
+      >
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
       </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="#services" class="nav__link">My Services</a>
+            <a href="#home" class="nav__link">Inicio</a>
           </li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About me</a>
+            <a href="#services" class="nav__link">Mis Servicios</a>
           </li>
           <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
+            <a href="#about" class="nav__link">Sobre Mi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mi Trabajo</a>
           </li>
         </ul>
       </nav>
@@ -38,78 +40,82 @@
 
     <!-- Intro -->
     <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Dario Elias</strong>
+      <h1 class="section__title section__title--intro spanish-title">
+        Hola, soy <strong>Dario Elias</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <p class="section__subtitle section__subtitle--intro">
+        Desarrollador front-end
+      </p>
       <img src="fotoPerfil.jpg" alt="a picture of myself" class="intro__img" />
     </section>
 
     <!-- My services -->
     <!-- Mis servicios -->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
+      <h2 class="section__title section__title--services">Lo Que Hago</h2>
       <div class="services">
         <div class="service">
-          <h3>UI Development</h3>
+          <h3>Desarrollo de Interfaces de Usario</h3>
           <p>
-            I can create User Interfaces using HTML5, CSS3 and JavaScript or
-            even create a Single Page Application (SPA)with React js.
+            Puedo crear Interfaces de Usuario (UI) ya sea utilizando HTML5, CSS3
+            y JavaScript como así también una SPA (Single Page Application) con
+            React js.
           </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3>Responsive Design</h3>
+          <h3>Diseño Responsive</h3>
           <p>
-            It is very important in order to create a great user experience (UX)
-            that out User Interface has a responsive design so our users can
-            access our website with whichever device they want and still be able
-            to read and navigate properly.
+            Es muy importante para la experiencia de Usuario (UX) que la
+            Interfaz tengo un diseño responsive así el usuario podrá leer con
+            comodidad independiente del dispositivo que utilice para ingresar a
+            la web.
           </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3>Backend with Firebase</h3>
+          <h3>Backend con Firebase</h3>
           <p>
-            Making profit of this incredible tool that Google provide us we can
-            create a full-stack app that has a Realtime database, handle user
-            authentication, send notifications and even use a hosting to publish
-            our app.
+            Aprovechando esta increíble herramienta de Google podemos
+            desarrollar una app Full stack usando sus bases de datos en tiempo
+            real de tipo no relacionales, autenticar usuarios, enviar
+            notificaciones y hasta utilizar un hosting para publicar nuestro
+            proyecto online.
           </p>
         </div>
         <!-- / service -->
       </div>
       <!-- / services -->
 
-      <a href="#work" class="btn">My Work</a>
+      <a href="#work" class="btn">Mi Trabajo</a>
     </section>
 
     <!-- About me -->
     <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
+      <h2 class="section__title section__title--about">Sobre Mi</h2>
       <p class="section__subtitle section__subtitle--about">
-        Developer based in Spain
+        Desarrollador radicado en España
       </p>
 
       <div class="about-me__body">
         <p>
-          Hey there! Thanks for looking at my portfolio. My name is Dario. I'm
-          28 years old. I'm Argentinean (and Italian). I like to think of myself
-          as a <strong>curious mind</strong> so when it comes to knowledge I
-          don't put myself boundaries.
+          Hola! Gracias por mirar mi portfolio. Mi nombre es Dario. Soy
+          italo-argentino y tengo 28 años.
+        </p>
+
+        <p>
+          Como profesional en computación mis habilidades son en
+          <strong>desarrollo Front End y Responsive Design (UI).</strong> Pero
+          además soy una persona flexible, me adapto rápido a los cambios. Me
+          encantan los desafíos y resolver problemas.
         </p>
         <p>
-          Since I'm a polyglot I consider languages as my field. That's why even
-          if I come from a different background (music) I feel
-          <strong>highly motivated studying IT</strong>. I love to take
-          <strong>intellectual challenges</strong> and coding is one of them.
-        </p>
-        <p>
-          As a Front End Developer I like to work
-          <strong>lazer-focus</strong> on delivering high-quality User Interface
-          (UI) in order to create the best User Experience (UX).
+          Me considero<strong> una mente curiosa </strong> y eso me ha llevado a
+          estudiar distintos lenguajes. En la música, las lenguas y la
+          informática. Me gusta trabajar en equipo pero también tengo la
+          capacidad de hacerlo de forma independiente.
         </p>
       </div>
 
@@ -122,9 +128,9 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My work</h2>
+      <h2 class="section__title section__title--work">Mi Trabajo</h2>
       <p class="section__subtitle section__subtitle--work">
-        A selection of my work
+        Algunos de mis proyectos
       </p>
 
       <div class="portfolio">
